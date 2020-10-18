@@ -53,6 +53,6 @@ export class LogService {
       if (log.id == cur.id) {
         this.logs.splice(index, 1);
       }
-    });
+    }); 
   }
 }
